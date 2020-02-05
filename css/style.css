@@ -1,0 +1,131 @@
+body {
+   margin: 0;
+}
+
+header,main,._container {
+  padding: 5% 5% 2% 2%;
+  text-align: center;
+}
+ footer{
+  padding: 1% 1% 2% ;
+  text-align: center;
+ }
+nav {
+  padding-top: 2em;
+  height: 1em;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 2em;
+}
+
+.main_section {
+  padding: 2% 50px 50px 400px;
+}
+
+.main_section1 {
+  padding: 2% 0% 0% 0%;
+}
+
+.main_section2 {
+  display: flex;
+    padding: 5% 5% 0% 5%;
+  text-align: center;
+}
+#no_border {
+  border: none;
+}
+
+._container {
+   padding: 5% 5% 2% 5%;
+  text-align: center;
+}
+
+._container1 {
+   background-color: #75BFAA;
+   padding: 2% 10% 2% 2%;
+   margin-top: 75px;
+   text-align: center;
+}
+
+._container2 {
+   background-color: #D97171;
+   margin-top: 150px;
+
+   }
+
+.servizi{
+  width: 30%;
+  display: inline-block;
+  padding: 0 2em;
+}
+
+.contatti{
+  width: 30%;
+  display: inline-block;
+  padding: 0 2em;
+}
+.contatti i {
+    color: black;
+    font-size: 2em;
+}
+
+
+
+ /*mappa*/
+.google-maps {
+  position: relative;
+  padding-bottom: 25% ; // Definisco l'aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* colors and font */
+
+body {
+  color: rgba(0,0,0,.6);
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+nav ul li a {
+  color: #12A68B;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 1.5em;
+}
+nav ul li a:hover {
+  color: #12A68B;
+  text-decoration: none !important;
+  padding: 1em;
+}
+
+header , footer {
+  background-color: #F2D3D0;
+  color:#D9435F;
+}
+
+._container {
+  background-color: #75BFAA;
+}
+
+.servizi i {
+    color: black;
+    font-size: 2em;
+}
+
+a {
+  color: black;
+}
+
+
+
